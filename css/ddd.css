@@ -1,0 +1,74 @@
+}
+
+.img-gray {
+  -webkit-filter: grayscale(100%);
+}
+
+.ssb {
+  -webkit-filter: grayscale(80%);
+}
+
+.grow:hover { 
+  transform: scale(1.1);
+  -webkit-filter: grayscale(0%);
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: -10px;
+  font-family: 'Luckiest Guy', cursive;
+  color: #d9d9d9;
+} 
+
+
+body{
+  background-color: #080808;
+}
+
+h4 {
+  margin-top: -7px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color: #d9d9d9;
+}  
+
+ 
+p {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 120%;
+  color: #d9d9d9;
+}
+
+
+.well {
+    background-color: #111;
+ 
+  border: 0px solid #000;
+}
+
+
+
+
+
+div#content {
+      display: none;
+}
+
+
+a:hover + div#content {
+      display: block;
+   
+}
+
+.col-md-3 img{
+    width: 20%;
+    height: 20%;
+}
+
+.container img{
+    width: 20%;
+    height: 20%;
+}

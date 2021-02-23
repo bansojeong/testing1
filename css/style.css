@@ -1,0 +1,496 @@
+
+@import url('reset.css');
+
+@import url(http://db.onlinewebfonts.com/c/6c02f15fdbc9dd7c482b52b06d8e0a6c?family=Super+Mario+256);
+
+
+@font-face{
+    font-family: 'MaplestoryOTFLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.section01{
+    width: 100%;
+    background-image: url('../images/bg01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*폰트*/
+
+.s{
+    font-family: "Super Mario 256";
+    color: blue;
+}
+
+.u{
+    font-family: "Super Mario 256";
+
+    color: yellow;
+}
+
+.p{
+    font-family: "Super Mario 256";
+
+    color: red;
+}
+
+.e{
+    font-family: "Super Mario 256";
+
+    color: green;
+}
+
+.r{
+    font-family: "Super Mario 256";
+
+    color: yellow;
+}
+.m{
+    font-family: "Super Mario 256";
+    color: blue;
+}
+
+.a{
+    font-family: "Super Mario 256";
+    color: yellow;
+}
+
+.r-1{
+    font-family: "Super Mario 256";
+    color: red;
+}
+
+.i{
+    font-family: "Super Mario 256";
+    color: green;
+}
+
+.o{
+    font-family: "Super Mario 256";
+    color: yellow;
+}
+
+/* 폰트 end */
+
+.main-text>h1{
+    float: left;
+}
+
+.main-text2>h1{
+    float: left;
+}
+
+.main-img1{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+/*섹션1*/
+.section01{
+    position: relative;
+}
+
+.main-mario-img{
+    position: relative;
+}
+
+.main-img1 img{
+    width: 100%;
+    float: right;
+}
+
+.main-text>h1{
+    text-align: center;
+    font-size: 12rem;
+}
+
+.main-text2>h1{
+    text-align: center;
+    font-size: 12rem;
+}
+
+.sec-01-title{
+    margin-top: 170px;
+    margin-left: 0;
+}
+
+/*   1024 min-width   */
+
+@media(max-width:1024px){
+    .main-text>h1{
+        font-size: 16rem;
+    }
+    .main-text2>h1{
+        font-size: 16rem;
+    }
+    .section01 .w-5{
+        width: 100%;
+    }
+    .main-img1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sec-01-title{
+        margin-left: 40px;
+        margin-top: 87px;
+    }
+
+}
+
+
+/*   768 min-width   */
+
+@media(max-width:768px){
+    .main-text>h1{
+        margin-left: 0;
+        font-size: 7rem;
+    }
+    .main-text2>h1{
+        margin-left: 0;
+        font-size: 7rem;
+    }
+    .section01 .w-5{
+        width: 100%;
+    }
+    .main-img1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sec-01-title{
+        margin-left: 40px;
+        margin-top: 87px;
+    }
+
+}
+
+/* media 414 */
+
+@media(max-width:414px){
+    .main-text>h1{
+        margin-left: 0;
+        font-size: 6rem;
+    }
+    .main-text2>h1{
+        margin-left: 0;
+        font-size: 6rem;
+    }
+    .section01 .w-5{
+        width: 100%;
+    }
+    .main-img1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sec-01-title{
+        margin-left: 40px;
+        margin-top: 87px;
+    }
+
+}
+
+
+/* media 375 */
+
+@media(max-width:375px){
+    .main-text>h1{
+        margin-left: 0;
+        font-size: 12rem;
+    }
+    .main-text2>h1{
+        margin-left: 0;
+        font-size: 12rem;
+    }
+    .section01 .w-5{
+        width: 100%;
+    }
+    .main-img1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sec-01-title{
+        margin-left: 40px;
+        margin-top: 87px;
+    }
+
+}
+
+/* media 360 */
+
+@media(max-width:375px){
+    .main-text>h1{
+        font-size: 5rem;
+    }
+    .main-text2>h1{
+        font-size: 5rem;
+    }
+    .section01 .w-5{
+        width: 100%;
+    }
+    .main-img1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sec-01-title{
+        margin-left: 40px;
+        margin-top: 87px;
+    }
+
+}
+
+/* media 320 */
+
+@media(max-width:320px){
+    .main-text>h1{
+        font-size: 4.5rem;
+    }
+    .main-text2>h1{
+        font-size: 4.5rem;
+    }
+    .section01 .w-5{
+        width: 100%;
+    }
+    .main-img1{
+        width: 100%;
+        margin-left: 0;
+    }
+    .sec-01-title{
+        margin-left: 40px;
+        margin-top: 87px;
+    }
+
+}
+
+
+/* 1600 min-width   */
+
+@media(min-width:1600px){
+    .wrap{
+        width: 1600px;
+        margin: 0 auto;
+    } 
+}
+
+
+/* 폰트 굵기 */
+
+    .m1 {
+    font-size: 165px;
+    font-weight: 900;
+    text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+    text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+    text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+    text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+    text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+    text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+    text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+    text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+
+    }
+
+    .m2 {
+        font-size: 165px;
+        font-weight: 900;
+        text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+        text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+        text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+        text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+        text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+        text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+        text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+        text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    }
+    
+    .m3 {
+        font-size: 165px;
+        font-weight: 900;
+        text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+        text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+        text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+        text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+        text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+        text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+        text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+        text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    }
+    
+    .m4 {
+        font-size: 165px;
+        font-weight: 900;
+        text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+        text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+        text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+        text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+        text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+        text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+        text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+        text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    }
+    
+    .m5{
+        font-size: 165px;
+        font-weight: 900;
+        text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+        text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+        text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+        text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+        text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+        text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+        text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+        text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    }
+
+    .m6 {
+        font-size: 165px;
+        font-weight: 900;
+        text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+        text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+        text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+        text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+        text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+        text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+        text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+        text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    
+    }
+    
+    .m7 {
+            font-size: 165px;
+            font-weight: 900;
+            text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+            text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+            text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+            text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+            text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+            text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+            text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+            text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    }
+        
+    .m8 {
+            font-size: 165px;
+            font-weight: 900;
+            text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+            text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+            text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+            text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+            text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+            text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+            text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+            text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    }
+        
+    .m9 {
+            font-size: 165px;
+            font-weight: 900;
+            text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+            text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+            text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+            text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+            text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+            text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+            text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+            text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    }
+        
+    .m10{
+            font-size: 165px;
+            font-weight: 900;
+            text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+            text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+            text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+            text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+            text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+            text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+            text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+            text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black;
+    }
+
+    .m11{
+        /* font-size: 165px; */
+        font-weight: 900;
+        text-shadow: -1px 0 black, 0 1px black,1px 0 black, 0 -1px black;
+        text-shadow: -2px 0 black, 0 2px black,2px 0 black, 0 -2px black;
+        text-shadow: -3px 0 black, 0 3px black,3px 0 black, 0 -3px black;
+        text-shadow: -4px 0 black, 0 4px black,4px 0 black, 0 -4px black;
+        /* text-shadow: -5px 0 black, 0 5px black,5px 0 black, 0 -5px black;
+        text-shadow: -6px 0 black, 0 6px black,6px 0 black, 0 -6px black;
+        text-shadow: -7px 0 black, 0 7px black,7px 0 black, 0 -7px black;
+        text-shadow: -8px 0 black, 0 8px black,8px 0 black, 0 -8px black; */
+}
+
+
+/*  섹션 2  */
+
+
+.section02{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(21, 21, 146);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.chariter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.chariter img{
+    width: 320px;
+    height: 320px;
+    margin: 20%;
+}
+
+.mario{
+    width: 25%;
+    float: left;
+}
+
+.peach{
+    width: 25%;
+    float: left;
+}
+
+.luigi{
+    width: 25%;
+    float: left;
+}
+
+.kupa{
+    width: 25%;
+    float: left;
+}
+
+.yoshi{
+    width: 25%;
+    float: left;
+}
+
+.kinopio{
+    width: 25%;
+    float: left;
+}
+
+.daisy{
+    width: 25%;
+    float: left;
+}
+
+.kupa2{
+    width: 25%;
+    float: left;
+}

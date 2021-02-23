@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onepage - sample 01</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+    <section class="section01">
+        <div class="wrap">
+            <div class="d-row">
+                <div class="w-5">
+                    <div class="sec-01-title wow bounceInDown center" >
+                        <div class="main-text">
+                            <h1 class="m1"><span class="s">S</span></h1>
+                            <h1 class="m2"><span class="u">U</span></h1>
+                            <h1 class="m3"><span class="p">P</span></h1>
+                            <h1 class="m4"><span class="e">E</span></h1>
+                            <h1 class="m5"><span class="r">R</span></h1>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="main-text2">
+                            <h1 class="m6"><span class="m">M</span></h1>
+                            <h1 class="m7"><span class="a">A</span></h1>
+                            <h1 class="m8"><span class="r-1">R</span></h1>
+                            <h1 class="m9"><span class="i">I</span></h1>
+                            <h1 class="m10"><span class="o">O</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-5">
+                    <div class="main-mario-img">
+                        <div class="main-img1">
+                            <img src="images/bg07.png" alt="마리오">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <!--섹션2-->
+    <section class="section02">
+        <div class="container">
+            <div class="chariter">
+                <div class="mario">
+                    <img src="images/bg13.png">
+                </div>
+                <div class="peach">
+                    <img src="images/bg16.png">
+                </div>
+                <div class="luigi">
+                    <img src="images/bg18.png">
+                </div>
+                <div class="kupa">
+                    <img src="images/bg19.png">
+                </div>
+                <div class="yoshi">
+                    <img src="images/bg21.png">
+                </div>
+                <div class="kinopio">
+                    <img src="images/bg20.png">
+                </div>
+                <div class="daisy">
+                    <img src="images/bg22.png">
+                </div>
+                <div class="kupa2">
+                    <img src="images/bg23.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--섹션3-->
+    <div class="section03">
+
+    </div>
+    <!--섹션4-->
+    <div class="section04">
+
+    </div>
+    <!--섹션5-->
+    <div class="section05">
+        
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        AOS.init();
+        new WOW().init();
+      </script>
+
+    <script>
+        /**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
+        if (jQuery(window).width() > 0) {
+            jQuery(window).on("scroll",function(ev){
+                if(jQuery(window).scrollTop() > 150 ) { /**높이 픽셀 조정**/
+                    jQuery('.menu_box').addClass('fixed');  /**위의 높이에서 .fixed 클래스를 추가합니다. 스타일에서 자유롭게 수치 조절 가능합니다.**/
+                }
+                else{
+                    jQuery('.menu_box').removeClass('fixed');
+                }
+            return false;
+        });
+        }
+        
+        /**마우스 부드럽게 해당위치로 이동**/
+        $(function(){
+            $('a[href^=#]').click(function() {
+                var speed = 800;
+                var href= $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top;
+                $('body,html').animate({scrollTop:position}, speed, 'swing');
+                return false;
+            });
+        });
+        </script>
+          
+</body>
+</html>
